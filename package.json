@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-theme-default",
-  "description": "Default theme for GitBook",
+  "name": "gitbook-plugin-theme-nvd",
+  "description": "Theme for GitBook",
   "main": "./index.js",
-  "version": "1.0.7",
+  "version": "0.0.2",
   "engines": {
     "gitbook": ">=3.0.0"
   },
@@ -21,21 +21,17 @@
     "uglify-js": "2.7.3"
   },
   "scripts": {
-    "prepublish": "./src/build.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/GitbookIO/theme-default.git"
+    "prepublish": "src\\build.sh"
   },
   "author": "FriendCode Inc. <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/theme-default/issues"
+    "email": "canbing@live.cn"
   },
   "contributors": [
     {
-      "name": "Samy Pessé",
-      "email": "samy@gitbook.com"
+      "name": "CanBing Pan",
+      "email": "canbing@live.cn"
     }
   ],
   "gitbook": {
