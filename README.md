@@ -1,5 +1,7 @@
-# GitBook Default Theme
+# GitBook NVd Theme
 
-This is the default theme for GitBook since version `3.0.0`. It can be used as a template for theming books or can be extended.
+This is a modification of the default GitBook theme.
+这是在GitBook默认主题的基础上修改的。
 
-![Image](https://raw.github.com/GitbookIO/theme-default/master/preview.png)
+Added GET parameter (hideSidebar). Used to specify whether to show the sidebar when the page is initialized.
+添加了一个GET参数（hideSidebar）。用于指定是否在页面初始化时显示侧边栏。

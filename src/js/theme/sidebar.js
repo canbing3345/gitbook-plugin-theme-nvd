@@ -22,8 +22,12 @@ function isOpen() {
 
 // Prepare sidebar: state and toggle button
 function init() {
-    // Init last state if not mobile
-    if (!platform.isMobile()) {
+    if (
+        // Init last state if not mobile
+        !platform.isMobile()
+        // Init last state if not set to not open the sidebar
+        && !platform.isHideSidebar()
+    ) {
         toggleSidebar(gitbook.storage.get('sidebar', true), false);
     }
 
